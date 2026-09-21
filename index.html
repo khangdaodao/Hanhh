@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Do you love me? ❤️</title>
+  <meta name="theme-color" content="#ffe3ea">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=DM+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background: two soft blobs + a few slow hearts (filled by script.js) -->
+  <div class="bg" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <div class="hearts" id="hearts"></div>
+  </div>
+
+  <!-- Question screen -->
+  <main class="stage" id="stage">
+    <p class="for" id="for"></p>
+    <div class="sticker"><img id="sticker" alt="" width="220" height="220"></div>
+    <h1 class="question" id="question" aria-live="polite"></h1>
+    <div class="actions">
+      <button class="btn btn-yes" id="yes" type="button"></button>
+      <button class="btn btn-no" id="no" type="button"></button>
+    </div>
+  </main>
+
+  <!-- Step 8: giant YES that floods the whole viewport -->
+  <button class="cover" id="cover" type="button" tabindex="-1" aria-hidden="true">
+    <span class="cover-q" id="coverQ"></span>
+    <span class="cover-yes" id="coverYes"></span>
+  </button>
+
+  <!-- Ending scene -->
+  <section class="final" id="final" hidden>
+    <div class="final-fx" aria-hidden="true"><div class="hearts" id="finalHearts"></div><div class="confetti" id="confetti"></div></div>
+    <div class="final-card">
+      <div class="sticker sticker-lg">
+        <img id="finalSticker" alt="" width="260" height="260">
+        <i class="spark s1" aria-hidden="true">✦</i>
+        <i class="spark s2" aria-hidden="true">✦</i>
+        <i class="spark s3" aria-hidden="true">✦</i>
+      </div>
+      <h2 class="final-title" id="finalTitle" tabindex="-1"></h2>
+      <p class="final-sub" id="finalSub"></p>
+      <button class="replay" id="replay" type="button"></button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
