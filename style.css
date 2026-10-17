@@ -139,7 +139,7 @@ body {
 .sticker-lg { width: clamp(190px, 58vw, 280px); overflow: visible; }
 .sticker-lg img { border-radius: 50%; }
 .final-title {
-  margin: .4rem 0 0; font-family: var(--display); font-weight: 800; color: var(--primary);
+  margin: .4rem 0 0; font-family: "Times New Roman", serif; font-weight: 800; color: var(--primary);
   font-size: clamp(2.6rem, 13vw, 5rem); line-height: 1; letter-spacing: -.02em; outline: none;
 }
 .final-sub { margin: 0; font-family: var(--display); font-style: italic; font-weight: 600; font-size: clamp(1.1rem, 4.6vw, 1.5rem); max-width: 22ch; text-wrap: balance; }

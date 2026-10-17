@@ -3,9 +3,9 @@
       template to a new customer.
    ========================================================== */
 const config = {
-  recipientName: "Nakroth",          // shown as "for My Love" (set "" to hide)
+  recipientName: "Bé iu<3",          // shown as "for My Love" (set "" to hide)
   forLine: "for {name}",
-  yesLabel: "Cóa ❤️",
+  yesLabel: "Cóa ",
   noLabel: "Hong thèm 💔",
   maxNoClicks: 8,                    // must equal steps.length - 1
 
@@ -27,17 +27,17 @@ const config = {
     { question: "Đồng ý đi mò:<",                   yes: 1.18, no: 0.88, sticker: "assets/tonton_namngua.gif" },
     { question: "Mình sẽ bùn lắm đó:(",                         yes: 1.38, no: 0.78, sticker: "assets/tonton_khoc.jpg" },
     { question: "Đồ đáng ghéc!",                  yes: 1.6,  no: 0.68, sticker: "assets/tonton_tuyet.gif" },
-    { question: "Đừng làm trái tim tui đau hic 💔",  yes: 1.9,  no: 0.55, sticker: "assets/tonton_namngua.gif" },
+    { question: "Aaaaa",  yes: 1.9,  no: 0.55, sticker: "assets/tonton_namngua.gif" },
     { question: "Suy nghĩ lại đi màa 😭",   yes: 2.3,  no: 0.44, sticker: "assets/tonton_thatvong.jpg" },
     { question: "Cơ hội cuối á nha :<",                  yes: 2.9,  no: 0.34, sticker: "assets/tonton_khoc.jpg" },
-    { question: "Vaix",    yes: 3.6,  no: 0.26, sticker: "assets/tonton_tuyet.gif" },
-    { question: "",       yes: 4,    no: 0.2,  sticker: "#" },
+    { question: "Gất bùn",    yes: 3.6,  no: 0.26, sticker: "assets/tonton_tuyet.gif" },
+    { question: "",       yes: 4,    no: 0.2,  sticker: "assets/tonton_thatvong.jpg" },
   ],
 
   final: {
     sticker: "assets/Tonton Friends - Love Sticker.jpg",
-    title: "I LOVE U TOO ❤️",
-    subtitle: "hehe... I knew you would say yes 🥰",
+    title: "Iu thee ❤️",
+    subtitle: "hehe... mình biết bạn cũng thích mình màa🥰",
     replayLabel: "Play again",
     showReplay: false,                // set false in the customer's version
   },
