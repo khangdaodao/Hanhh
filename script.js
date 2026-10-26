@@ -24,9 +24,9 @@ const config = {
   // yes / no = size multipliers, sticker = image shown above the question.
   steps: [
     { question: "Do you love me? ",                 yes: 1,    no: 1,    sticker: "assets/tonton_camHoa.gif" },
-    { question: "Đồng ý đi mò:<",                   yes: 1.18, no: 0.88, sticker: "assets/tonton_namngua.gif" },
-    { question: "Mình sẽ bùn lắm đó:(",                         yes: 1.38, no: 0.78, sticker: "assets/tonton_khoc.jpg" },
-    { question: "Đồ đáng ghéc!",                  yes: 1.6,  no: 0.68, sticker: "assets/tonton_tuyet.gif" },
+    { question: "Hong đi mò:<",                   yes: 1.18, no: 0.88, sticker: "assets/tonton_namngua.gif" },
+    { question: "Please 🥺",                         yes: 1.38, no: 0.78, sticker: "assets/tonton_khoc.jpg" },
+    { question: "Cố chấp thee",                  yes: 1.6,  no: 0.68, sticker: "assets/tonton_tuyet.gif" },
     { question: "Aaaaa",  yes: 1.9,  no: 0.55, sticker: "assets/tonton_namngua.gif" },
     { question: "Suy nghĩ lại đi màa 😭",   yes: 2.3,  no: 0.44, sticker: "assets/tonton_thatvong.jpg" },
     { question: "Cơ hội cuối á nha :<",                  yes: 2.9,  no: 0.34, sticker: "assets/tonton_khoc.jpg" },
