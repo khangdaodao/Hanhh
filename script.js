@@ -3,10 +3,10 @@
       template to a new customer.
    ========================================================== */
 const config = {
-  recipientName: "Crushh<3",          // shown as "for My Love" (set "" to hide)
+  recipientName: "Hanhh🌷",          // shown as "for My Love" (set "" to hide)
   forLine: "for {name}",
-  yesLabel: "Cóa ",
-  noLabel: "Hong thèm 💔",
+  yesLabel: "Hong thèm 💔",
+  noLabel: "Coá 💗",
   maxNoClicks: 8,                    // must equal steps.length - 1
 
   colors: {                          // overrides the CSS variables
@@ -36,8 +36,8 @@ const config = {
 
   final: {
     sticker: "assets/Tonton Friends - Love Sticker.jpg",
-    title: "Iu thee ❤️",
-    subtitle: "hehe... mình biết bạn cũng thích mình màa🥰",
+    title: "Hieu rui😔🥺",
+    subtitle: "we should break up..🖤",
     replayLabel: "Play again",
     showReplay: false,                // set false in the customer's version
   },
